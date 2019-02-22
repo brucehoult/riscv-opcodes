@@ -1,0 +1,6 @@
+vsetvli	31=0 vec_imm11 rs1 14..12=0x7 rd 6..2=0x15 1..0=3
+
+vlw.v	vec_off 28..26=4 25=1 24..20=0 rs1 14..12=0x6 rd 6..2=0x1 1..0=3
+vsw.v	vec_off 28..26=0 25=1 24..20=0 rs1 14..12=0x6 rd 6..2=0x9 1..0=3
+
+vfmacc.vf 31..26=0x2c 25=1 rs2 rs1 14..12=0x5 rd 6..2=0x15 1..0=3 # rs1 is scalar fp reg

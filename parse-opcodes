@@ -23,6 +23,7 @@ arglut['fm'] = (31,28)
 arglut['pred'] = (27,24)
 arglut['succ'] = (23,20)
 arglut['rm'] = (14,12)
+arglut['funct3'] = (14,12)
 arglut['imm20'] = (31,12)
 arglut['jimm20'] = (31,12)
 arglut['imm12'] = (31,20)
@@ -34,6 +35,12 @@ arglut['zimm'] = (19,15)
 arglut['shamt'] = (25,20)
 arglut['shamtw'] = (24,20)
 arglut['vseglen'] = (31,29)
+arglut['vec_off'] = (31,29)
+arglut['vec_mop'] = (28,26)
+arglut['vec_vm'] = 25
+arglut['vec_func6'] = (31,26)
+arglut['vec_imm11'] = (30,20)
+arglut['vec_width'] = (14,12)
 
 causes = [
   (0x00, 'misaligned fetch'),
