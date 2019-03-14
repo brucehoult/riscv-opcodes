@@ -63,7 +63,7 @@ vfsgnx.vv    31..26=0x0a vm vs2 vs1 14..12=0x1 vd 6..2=0x15 1..0=3
 vfmv.f.s     31..26=0x0c vm vs2      19..15=0 14..12=0x5 rd 6..2=0x15 1..0=3
 vfmv.s.f     31..26=0x0d vm 24..20=0 rs1      14..12=0x5 vd 6..2=0x15 1..0=3
 
-vmerge.vv    31..26=0x17 vm vs2 vs1 14..12=0x1 vd 6..2=0x15 1..0=3
+vmerge.vv    31..26=0x17 vm vs2 vs1 14..12=0x0 vd 6..2=0x15 1..0=3
 
 vfdiv.vv     31..26=0x20 vm vs2 rs1 14..12=0x1 vd 6..2=0x15 1..0=3
 vfunary0.vv  31..26=0x22 vm vs2 rs1 14..12=0x1 vd 6..2=0x15 1..0=3
